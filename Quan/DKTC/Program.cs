@@ -16,7 +16,7 @@ namespace DKTC
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDKHP());
+            Application.Run(new frmMain());
         }
     }
 }

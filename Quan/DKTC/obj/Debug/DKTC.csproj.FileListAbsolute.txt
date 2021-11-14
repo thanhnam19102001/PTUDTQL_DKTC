@@ -7,18 +7,6 @@ D:\DA PTUD\Project\DKTC\DKTC\obj\Debug\DKTC.Properties.Resources.resources
 D:\DA PTUD\Project\DKTC\DKTC\obj\Debug\DKTC.csproj.GenerateResource.Cache
 D:\DA PTUD\Project\DKTC\DKTC\obj\Debug\DKTC.exe
 D:\DA PTUD\Project\DKTC\DKTC\obj\Debug\DKTC.pdb
-D:\Desktop\PTUDTQL_DKTC\PTUDTQL_DKTC\Quan\DKTC\bin\Debug\DKTC.exe.config
-D:\Desktop\PTUDTQL_DKTC\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.exe
-D:\Desktop\PTUDTQL_DKTC\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.pdb
-C:\Users\phamn\Desktop\PTUDTQL_DKTC\Quan\DKTC\bin\Debug\DKTC.exe.config
-C:\Users\phamn\Desktop\PTUDTQL_DKTC\Quan\DKTC\bin\Debug\DKTC.exe
-C:\Users\phamn\Desktop\PTUDTQL_DKTC\Quan\DKTC\bin\Debug\DKTC.pdb
-C:\Users\phamn\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.csproj.AssemblyReference.cache
-C:\Users\phamn\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.frmDKHP.resources
-C:\Users\phamn\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.frmLogin.resources
-C:\Users\phamn\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.frmMain.resources
-C:\Users\phamn\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.Properties.Resources.resources
-C:\Users\phamn\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.csproj.GenerateResource.cache
-C:\Users\phamn\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.csproj.CoreCompileInputs.cache
-C:\Users\phamn\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.exe
-C:\Users\phamn\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.pdb
+D:\DA PTUD\Project\DKTC\DKTC\obj\Debug\DKTC.frmDKHP.resources
+D:\DA PTUD\Project\DKTC\DKTC\obj\Debug\DKTC.frmLogin.resources
+D:\DA PTUD\Project\DKTC\DKTC\obj\Debug\DKTC.frmTCHP.resources

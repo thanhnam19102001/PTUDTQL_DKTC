@@ -29,7 +29,14 @@ namespace DKTC
 
         private void đăngNhậpHệThốngToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Form f = new frmLogin();
+            f.ShowDialog();
+        }
 
+        private void đăngKýHọcPhầnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form f = new frmDKHP();
+            f.ShowDialog();
         }
     }
 }
