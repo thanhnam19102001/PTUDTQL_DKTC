@@ -10,3 +10,15 @@ D:\DA PTUD\Project\DKTC\DKTC\obj\Debug\DKTC.pdb
 D:\DA PTUD\Project\DKTC\DKTC\obj\Debug\DKTC.frmDKHP.resources
 D:\DA PTUD\Project\DKTC\DKTC\obj\Debug\DKTC.frmLogin.resources
 D:\DA PTUD\Project\DKTC\DKTC\obj\Debug\DKTC.frmTCHP.resources
+D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\bin\Debug\DKTC.exe.config
+D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.exe
+D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.pdb
+D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\bin\Debug\DKTC.exe
+D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\bin\Debug\DKTC.pdb
+D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.csprojResolveAssemblyReference.cache
+D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.frmDKHP.resources
+D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.frmLogin.resources
+D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.frmMain.resources
+D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.frmTCHP.resources
+D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.Properties.Resources.resources
+D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.csproj.GenerateResource.Cache

@@ -45,13 +45,52 @@ namespace DKTC
 
         private void btnFirst_Click(object sender, EventArgs e)
         {
-
+            grdData.ClearSelection();
+            grdData.CurrentCell = grdData[0, 0];
+            NapCT();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
+        private void grdData_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
+
+        private void grdData_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            NapCT();
+        }
+
+        private void btnPrv_Click(object sender, EventArgs e)
+        {
+            int i = Convert.ToInt16(grdData.CurrentRow.Index.ToString());
+            if (i > 0)
+            {
+                grdData.CurrentCell = grdData[0, i - 1];
+                NapCT();
+            }
+        }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            int i = Convert.ToInt16(grdData.CurrentRow.Index.ToString());
+            if (i < grdData.RowCount - 1)
+            {
+                grdData.CurrentCell = grdData[0, i + 1];
+                NapCT();
+            }
+        }
+
+        private void btnLast_Click(object sender, EventArgs e)
+        {
+            grdData.CurrentCell = grdData[0, grdData.RowCount - 1];
+            NapCT();
+        }
+
         public void NapCT()
         {
             int i = grdData.CurrentRow.Index;//lấy số thứ tự dòng hiện thời

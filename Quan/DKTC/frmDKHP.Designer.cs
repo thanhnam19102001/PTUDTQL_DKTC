@@ -209,6 +209,7 @@
             this.btnPrv.TabIndex = 18;
             this.btnPrv.Text = "Trước";
             this.btnPrv.UseVisualStyleBackColor = true;
+            this.btnPrv.Click += new System.EventHandler(this.btnPrv_Click);
             // 
             // btnNext
             // 
@@ -218,6 +219,7 @@
             this.btnNext.TabIndex = 19;
             this.btnNext.Text = "Sau";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // btnLast
             // 
@@ -227,6 +229,7 @@
             this.btnLast.TabIndex = 20;
             this.btnLast.Text = "Cuối";
             this.btnLast.UseVisualStyleBackColor = true;
+            this.btnLast.Click += new System.EventHandler(this.btnLast_Click);
             // 
             // btnExit
             // 
@@ -268,6 +271,8 @@
             this.grdData.RowTemplate.Height = 24;
             this.grdData.Size = new System.Drawing.Size(780, 333);
             this.grdData.TabIndex = 23;
+            this.grdData.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdData_CellClick);
+            this.grdData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdData_CellContentClick);
             // 
             // MAMON
             // 
