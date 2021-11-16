@@ -38,5 +38,10 @@ namespace DKTC
             Form f = new frmDKHP();
             f.ShowDialog();
         }
+
+        private void kếtThúcChươngTrìnhToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
