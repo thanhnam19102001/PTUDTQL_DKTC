@@ -72,7 +72,8 @@ namespace DKTC
             {
                 grdData.CurrentCell = grdData[0, i - 1];
                 NapCT();
-            }
+            }
+
         }
 
         private void btnNext_Click(object sender, EventArgs e)
@@ -82,7 +83,8 @@ namespace DKTC
             {
                 grdData.CurrentCell = grdData[0, i + 1];
                 NapCT();
-            }
+            }
+
         }
 
         private void btnLast_Click(object sender, EventArgs e)
