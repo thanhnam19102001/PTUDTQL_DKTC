@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.trangToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.đăngNhậpHệThốngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kếtThúcChươngTrìnhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngKýHọcPhầnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -64,7 +63,6 @@
             // trangToolStripMenuItem
             // 
             this.trangToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.đăngNhậpHệThốngToolStripMenuItem,
             this.đăngXuấtToolStripMenuItem,
             this.kếtThúcChươngTrìnhToolStripMenuItem});
             this.trangToolStripMenuItem.Name = "trangToolStripMenuItem";
@@ -72,20 +70,13 @@
             this.trangToolStripMenuItem.Text = "Hệ thống";
             this.trangToolStripMenuItem.Click += new System.EventHandler(this.trangToolStripMenuItem_Click);
             // 
-            // đăngNhậpHệThốngToolStripMenuItem
-            // 
-            this.đăngNhậpHệThốngToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("đăngNhậpHệThốngToolStripMenuItem.Image")));
-            this.đăngNhậpHệThốngToolStripMenuItem.Name = "đăngNhậpHệThốngToolStripMenuItem";
-            this.đăngNhậpHệThốngToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
-            this.đăngNhậpHệThốngToolStripMenuItem.Text = "Đăng nhập ";
-            this.đăngNhậpHệThốngToolStripMenuItem.Click += new System.EventHandler(this.đăngNhậpHệThốngToolStripMenuItem_Click);
-            // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("đăngXuấtToolStripMenuItem.Image")));
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
             this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
+            this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
             // kếtThúcChươngTrìnhToolStripMenuItem
             // 
@@ -178,7 +169,6 @@
         private System.Windows.Forms.ToolStripMenuItem traCứuHọcPhầnToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hướngDẫnĐăngKýToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem đăngNhậpHệThốngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kếtThúcChươngTrìnhToolStripMenuItem;
         private System.Windows.Forms.Label label1;

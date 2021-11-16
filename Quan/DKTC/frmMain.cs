@@ -43,5 +43,11 @@ namespace DKTC
         {
             Application.Exit();
         }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form f = new frmLogin();
+            f.ShowDialog();
+        }
     }
 }

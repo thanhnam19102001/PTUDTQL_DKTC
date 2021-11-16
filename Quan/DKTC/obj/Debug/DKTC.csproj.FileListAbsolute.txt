@@ -22,3 +22,4 @@ D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.frmMain.resources
 D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.frmTCHP.resources
 D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.Properties.Resources.resources
 D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.csproj.GenerateResource.Cache
+D:\Desktop\PTUDTQL_DKTC\Quan\DKTC\obj\Debug\DKTC.frmAdmin.resources
