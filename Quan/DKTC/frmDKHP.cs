@@ -17,7 +17,10 @@ namespace DKTC
         SqlDataAdapter da = new SqlDataAdapter();
         SqlCommand cmd = new SqlCommand();
         DataTable dt = new DataTable();
-        string sql, constr;
+        DataTable dt2 = new DataTable();
+        DataTable dt3 = new DataTable();
+        DataTable dt4 = new DataTable();
+        string sql, constr, Fname, tMamon, tMaLhp, tTenmon, tSotc, tLichhoc, tPhonghoc, tGiangvien, tSoluong;
         int i;
 
         public frmDKHP()
@@ -41,6 +44,13 @@ namespace DKTC
             grdData.DataSource = dt;
             grdData.Refresh();
             NapCT();
+            sql = " Select * From MONHOC ";
+            da = new SqlDataAdapter(sql, conn);
+            dt3.Clear();
+            da.Fill(dt3);
+
+            
+
         }
 
         private void btnFirst_Click(object sender, EventArgs e)
@@ -91,6 +101,22 @@ namespace DKTC
         {
             grdData.CurrentCell = grdData[0, grdData.RowCount - 1];
             NapCT();
+        }
+
+        private void comFname_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comFname.Text == "Mã môn") Fname = "MAMON";
+            if (comFname.Text == "Mã lớp học phần") Fname = "MALHP";
+            if (comFname.Text == "Tên môn") Fname = "TENMON";
+            sql = "Select distinct " + Fname + " From viewDKHP";
+            da = new SqlDataAdapter(sql, conn);
+            dt2.Clear();
+            da.Fill(dt2);
+            comFvalue.DataSource = dt2;
+            comFvalue.DisplayMember = Fname;
+            comFvalue.ValueMember = Fname;
+
+
         }
 
         public void NapCT()
