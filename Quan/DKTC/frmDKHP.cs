@@ -20,6 +20,8 @@ namespace DKTC
         DataTable dt2 = new DataTable();
         DataTable dt3 = new DataTable();
         DataTable dt4 = new DataTable();
+        Boolean flag = false;
+
         string sql, constr, Fname, tMamon, tMaLhp, tTenmon, tSotc, tLichhoc, tPhonghoc, tGiangvien, tSoluong;
         int i;
 
@@ -33,22 +35,58 @@ namespace DKTC
 
         }
 
+        private void grdData_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+           
+        }
+
+        private void grdData_CellClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            NapCT();
+        }
+
+        private void btnDk_Click(object sender, EventArgs e)
+        {
+            
+            
+                sql = " Insert into tblDSDK (MAMON, MASV, DSMH, DSGV, DSTC, DSHP)  values "
+                    + "('" + txtMAMON.Text + "','" + frmLogin.userID + "',N'" + txtTENMON.Text + "'," + "N'" + txtGIANGVIEN.Text + "','" + txtSOTC.Text + "','" + txtHOCPHI.Text + "')";
+                cmd = new SqlCommand(sql, conn);
+                cmd.ExecuteNonQuery();
+            MessageBox.Show("Đăng ký thành công");
+        }
+
+        
+
+        private void btnFilter_Click(object sender, EventArgs e)
+        {
+            sql = "Select * From viewDKHP " +
+                " WHERE " + Fname + "=N'" + comFvalue.Text + "' Order by MALHP";
+            da = new SqlDataAdapter(sql, conn);
+            dt.Clear();
+            da.Fill(dt);
+            grdData.DataSource = dt;
+            grdData.Refresh();
+            NapCT();
+
+        }
+
         private void frmDKHP_Load(object sender, EventArgs e)
         {
             constr = "Data Source=LAPTOP-8NPS3NGO; Initial Catalog = DKTC; Integrated Security = True";
             conn.ConnectionString = constr;
             conn.Open();
-            sql = "Select * from viewDKHP ";
+            sql = " Select MAMON, MALHP, TENMON, SOTC, LICHHOC, PHONGHOC, GIANGVIEN, SOLUONGSV from  viewDKHP " +  
+                " order by MALHP ";
             da = new SqlDataAdapter(sql, conn);
+            dt.Clear();
             da.Fill(dt);
             grdData.DataSource = dt;
             grdData.Refresh();
             NapCT();
-            sql = " Select * From MONHOC ";
-            da = new SqlDataAdapter(sql, conn);
-            dt3.Clear();
-            da.Fill(dt3);
-
+            
+            
+            
             
 
         }
@@ -63,11 +101,6 @@ namespace DKTC
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void grdData_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            
         }
 
         private void grdData_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -108,7 +141,7 @@ namespace DKTC
             if (comFname.Text == "Mã môn") Fname = "MAMON";
             if (comFname.Text == "Mã lớp học phần") Fname = "MALHP";
             if (comFname.Text == "Tên môn") Fname = "TENMON";
-            sql = "Select distinct " + Fname + " From viewDKHP";
+            sql = "Select distinct " + Fname + " From  viewDKHP ";
             da = new SqlDataAdapter(sql, conn);
             dt2.Clear();
             da.Fill(dt2);
@@ -121,15 +154,15 @@ namespace DKTC
 
         public void NapCT()
         {
-            int i = grdData.CurrentRow.Index;//lấy số thứ tự dòng hiện thời
-            txtMamon.Text = grdData.Rows[i].Cells["MAMON"].Value.ToString();
-            txtMalhp.Text = grdData.Rows[i].Cells["MALHP"].Value.ToString();
-            txtTenmon.Text = grdData.Rows[i].Cells["TENMON"].Value.ToString();
-            txtSotc.Text = grdData.Rows[i].Cells["SOTC"].Value.ToString();
-            txtLh.Text = grdData.Rows[i].Cells["LICHHOC"].Value.ToString();
-            txtPh.Text = grdData.Rows[i].Cells["PHONGHOC"].Value.ToString();
-            txtGv.Text = grdData.Rows[i].Cells["GIANGVIEN"].Value.ToString();
-            txtSlsv.Text = grdData.Rows[i].Cells["SOLUONGSV"].Value.ToString();
+            i = grdData.CurrentRow.Index ;//lấy số thứ tự dòng hiện thời
+            txtMAMON.Text = grdData.Rows[i].Cells["MAMON"].Value.ToString();
+            txtMALHP.Text = grdData.Rows[i].Cells["MALHP"].Value.ToString();
+            txtTENMON.Text = grdData.Rows[i].Cells["TENMON"].Value.ToString();
+            txtSOTC.Text = grdData.Rows[i].Cells["SOTC"].Value.ToString();
+            txtLICHHOC.Text = grdData.Rows[i].Cells["LICHHOC"].Value.ToString();
+            txtPHONGHOC.Text = grdData.Rows[i].Cells["PHONGHOC"].Value.ToString();
+            txtGIANGVIEN.Text = grdData.Rows[i].Cells["GIANGVIEN"].Value.ToString();
+            txtSOLUONGSV.Text = grdData.Rows[i].Cells["SOLUONGSV"].Value.ToString();
         }
     }
 }

@@ -20,6 +20,7 @@ namespace DKTC
         DataSet ds = new DataSet();
         string sql, constr;
         int i;
+        public static string userID = "";
 
         public frmLogin()
         {
@@ -72,6 +73,8 @@ namespace DKTC
                 else
                 {
                     MessageBox.Show("Đăng nhập thành công với tư cách là user!"); this.Hide();
+                    userID = txtTk.Text;
+                
                     Form f = new frmMain();
                     f.ShowDialog();
                 }
