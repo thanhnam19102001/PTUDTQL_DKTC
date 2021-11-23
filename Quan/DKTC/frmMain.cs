@@ -13,11 +13,7 @@ namespace DKTC
 {
     public partial class frmMain : Form
     {
-        SqlConnection conn = new SqlConnection();
-        SqlDataAdapter da = new SqlDataAdapter();
-        SqlCommand cmd = new SqlCommand();
-        DataTable dt = new DataTable();
-        string sql, constr;
+
         public frmMain()
         {
             InitializeComponent();
@@ -27,18 +23,6 @@ namespace DKTC
         {
             MessageBox.Show("Xin chào " + frmLogin.userID);
         }
-
-        private void trangToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void đăngNhậpHệThốngToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form f = new frmLogin();
-            f.ShowDialog();
-        }
-
         private void đăngKýHọcPhầnToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form f = new frmDKHP();
@@ -56,9 +40,10 @@ namespace DKTC
             f.ShowDialog();
         }
 
-        private void txtMSV_TextChanged(object sender, EventArgs e)
+        private void lịchSửĐăngKýHọcPhầnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Form f = new frmLichsu();
+            f.ShowDialog();
         }
     }
 }

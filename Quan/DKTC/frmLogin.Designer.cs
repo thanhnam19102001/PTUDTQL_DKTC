@@ -59,7 +59,6 @@
             this.groupBox1.Size = new System.Drawing.Size(359, 346);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // button1
             // 
@@ -98,7 +97,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(96, 92);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -109,7 +107,6 @@
             this.label1.Size = new System.Drawing.Size(208, 26);
             this.label1.TabIndex = 3;
             this.label1.Text = "Đăng nhập hệ thống";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // btnLogin
             // 
@@ -148,7 +145,6 @@
             this.MinimizeBox = false;
             this.Name = "frmLogin";
             this.Text = "frmLogin";
-            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

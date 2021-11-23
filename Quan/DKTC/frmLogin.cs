@@ -19,7 +19,6 @@ namespace DKTC
         DataTable dt = new DataTable();
         DataSet ds = new DataSet();
         string sql, constr;
-        int i;
         public static string userID = "";
 
         public frmLogin()
@@ -27,25 +26,6 @@ namespace DKTC
             InitializeComponent();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -54,7 +34,7 @@ namespace DKTC
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            constr = "Data Source=LAPTOP-8NPS3NGO; Initial Catalog = DKTC; Integrated Security = True";
+            constr = "Data Source=LAPTOP-9TM72T9J;Initial Catalog=DKTC;Integrated Security=True";
             conn.ConnectionString = constr;
             conn.Open();
             sql = "Select * from SINHVIEN where MASV ='" + txtTk.Text + "' and MATKHAU = '" + txtMk.Text + "'";
@@ -83,11 +63,6 @@ namespace DKTC
             {
                 MessageBox.Show("Tài khoản hoặc mật khẩu không đúng!");
             }
-            
-        }
-
-        private void frmLogin_Load(object sender, EventArgs e)
-        {
             
         }
 
