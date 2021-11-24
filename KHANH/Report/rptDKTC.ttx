@@ -1,0 +1,9 @@
+MAMON	String	10	MM01
+MAHP	String	10	LHP01
+TENMON	String	20	Toán r?i r?c
+SOTC	Number		3
+GIANGVIEN	String	20	
+LICHHOC	String	10	ti?t 5-7
+PHONGHOC	String	10	B303
+SOLUONGSV	BLOB		60
+HOCPHI	Number		

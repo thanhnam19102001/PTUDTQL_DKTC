@@ -156,6 +156,11 @@ namespace DKTC
             NapCT();
         }
 
+        private void txtSOLUONGSV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void comFname_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comFname.Text == "Mã môn") Fname = "MAMON";

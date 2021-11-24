@@ -40,3 +40,17 @@ C:\Users\phamn\Desktop\Test\Quan\DKTC\obj\Debug\DKTC.csproj.CoreCompileInputs.ca
 C:\Users\phamn\Desktop\Test\Quan\DKTC\obj\Debug\DKTC.exe
 C:\Users\phamn\Desktop\Test\Quan\DKTC\obj\Debug\DKTC.pdb
 C:\Users\phamn\Desktop\Test\Quan\DKTC\obj\Debug\DKTC.frmLichsu.resources
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.Form1.resources
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.frmAdmin.resources
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.frmDKHP.resources
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.frmLichsu.resources
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.frmLogin.resources
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.frmMain.resources
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.frmTCHP.resources
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.Properties.Resources.resources
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.rptDKTCpreview.resources
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.exe
+C:\Users\Admin\Desktop\Khanh2\Quan\DKTC\obj\Debug\DKTC.pdb
